@@ -1,0 +1,1535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Vec",
+				"Vector	luxe"
+			],
+			[
+				"Rect",
+				"Rectangle	luxe"
+			],
+			[
+				"Spri",
+				"Sprite	luxe"
+			],
+			[
+				"sc",
+				"screen	luxe.Screen"
+			],
+			[
+				"p",
+				"pos	luxe.Vector"
+			],
+			[
+				"Input",
+				"InputManager	io"
+			],
+			[
+				"s",
+				"size	Null<luxe.Vector>"
+			],
+			[
+				"te",
+				"texture"
+			],
+			[
+				"se",
+				"set_texture	function"
+			],
+			[
+				"pla",
+				"playerVision	var"
+			],
+			[
+				"player",
+				"player	var"
+			],
+			[
+				"S",
+				"Sprite	Sprite"
+			],
+			[
+				"M",
+				"MouseEvent	MouseEvent"
+			],
+			[
+				"m",
+				"Maths"
+			],
+			[
+				"curr",
+				"currentTime	var"
+			],
+			[
+				"pre",
+				"prevFrame	var"
+			],
+			[
+				"gam",
+				"gameID"
+			],
+			[
+				"Re",
+				"Reflect	class"
+			],
+			[
+				"axis",
+				"axisconfig"
+			],
+			[
+				"Gam",
+				"GamepadEvent"
+			],
+			[
+				"sl",
+				"splice	function"
+			],
+			[
+				"Ke",
+				"Key	luxe.Input"
+			],
+			[
+				"Fram",
+				"FrameInput	components"
+			],
+			[
+				"Ent",
+				"Entity	luxe"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"po",
+				"policies"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"Ad",
+				"AdvancedSearchPlugin"
+			],
+			[
+				"purcha",
+				"purchasePremium"
+			],
+			[
+				"play",
+				"playButton	var"
+			],
+			[
+				"del",
+				"delProtect	var"
+			],
+			[
+				"players",
+				"playersSection	var"
+			],
+			[
+				"on",
+				"onKeyDown"
+			],
+			[
+				"Tex",
+				"TextEvent"
+			],
+			[
+				"add",
+				"addEventListener(...)	Void"
+			],
+			[
+				"addPl",
+				"addPlayerText"
+			],
+			[
+				"update",
+				"updateVisuals	function"
+			],
+			[
+				"POS",
+				"Position	helpers"
+			],
+			[
+				"settings",
+				"SettingsState	class"
+			],
+			[
+				"st",
+				"state	flixel.FlxState"
+			],
+			[
+				"b",
+				"BLACK	UInt"
+			],
+			[
+				"scal",
+				"scale( designLength : Float )	Int"
+			],
+			[
+				"scale",
+				"scaleX( designLength : Float )	Int"
+			],
+			[
+				"Modal",
+				"Modal	ui.ModalPrompt"
+			],
+			[
+				"sca",
+				"scaleMode	flash.display.StageScaleMode"
+			],
+			[
+				"Flx",
+				"FlxG	class"
+			],
+			[
+				"STATE",
+				"STATE_COUNT_DOWN	var"
+			],
+			[
+				"r",
+				"reRolls	Int"
+			],
+			[
+				"co",
+				"correctSound	String"
+			],
+			[
+				"f",
+				"floor( v : Float )	Int"
+			],
+			[
+				"_quest",
+				"_questionDisplay	var"
+			],
+			[
+				"a",
+				"adFrequencyInSeconds	Int"
+			],
+			[
+				"_bg",
+				"_bgShadow	var"
+			],
+			[
+				"pause",
+				"pauseTimer"
+			],
+			[
+				"total",
+				"totalTime	var"
+			],
+			[
+				"prev",
+				"prevScore"
+			],
+			[
+				"roun",
+				"roundCounter	var"
+			],
+			[
+				"round",
+				"roundsWon	var"
+			],
+			[
+				"best",
+				"bestPlaterID	var"
+			],
+			[
+				"Settings",
+				"SettingsController	controllers"
+			],
+			[
+				"_",
+				"_purchaseTest	var"
+			],
+			[
+				"_r",
+				"_roundsWon"
+			],
+			[
+				"set",
+				"setY( animOffset : Int )	Unknown<5>"
+			],
+			[
+				"Round",
+				"RoundStats	class"
+			],
+			[
+				"els",
+				"elapsed"
+			],
+			[
+				"twee",
+				"tweenIn"
+			],
+			[
+				"Fl",
+				"FlxTween	class"
+			],
+			[
+				"Sett",
+				"SettingsState	states"
+			],
+			[
+				"ad",
+				"adMinTimes	Int"
+			],
+			[
+				"Key",
+				"KeyboardEvent	flash.events"
+			],
+			[
+				"shadow",
+				"shadowSize( newSize : Int )	Unknown<3>"
+			],
+			[
+				"thi",
+				"thisPlayer	var"
+			],
+			[
+				"_title",
+				"_titlev2BG	var"
+			],
+			[
+				"ic",
+				"iconFont2	String"
+			],
+			[
+				"q",
+				"questions	Array<String>"
+			],
+			[
+				"Mod",
+				"Modal	ui"
+			],
+			[
+				"QuestionDis",
+				"QuestionsDisplayItem	class"
+			],
+			[
+				"to",
+				"toUpperCase()	String"
+			],
+			[
+				"con",
+				"confimCallback	var"
+			],
+			[
+				"Zen",
+				"ZenButton	ui"
+			],
+			[
+				"an",
+				"antialiasing"
+			],
+			[
+				"in",
+				"intro	var"
+			],
+			[
+				"Pos",
+				"Position	helpers"
+			],
+			[
+				"Position",
+				"Position	helpers"
+			],
+			[
+				"Plat",
+				"PlayerController	controllers"
+			],
+			[
+				"pl",
+				"playersToShuffle	var"
+			],
+			[
+				"get",
+				"getDarkened"
+			],
+			[
+				"stage",
+				"stageHeight	Int"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"shar",
+				"shareVideo"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"stop",
+				"stopRecording"
+			],
+			[
+				"re",
+				"release"
+			],
+			[
+				"post",
+				"postProcess"
+			],
+			[
+				"Play",
+				"PlayState	states"
+			],
+			[
+				"time",
+				"timeDisplay	var"
+			],
+			[
+				"_p",
+				"_position	var"
+			],
+			[
+				"Resul",
+				"ResultItem	display"
+			],
+			[
+				"Pla",
+				"PlayerController	controllers"
+			],
+			[
+				"Res",
+				"RelativeScaleMode	flixel.system.scaleModes"
+			],
+			[
+				"Arra",
+				"Array<T>	class"
+			],
+			[
+				"_tit",
+				"_titleText	var"
+			],
+			[
+				"tim",
+				"timeDisplay	var"
+			],
+			[
+				"dis",
+				"displayBG	var"
+			],
+			[
+				"Fiel",
+				"FieldWidth	var"
+			],
+			[
+				"de",
+				"destroy"
+			],
+			[
+				"swi",
+				"switchState"
+			],
+			[
+				"Settt",
+				"SettingsController	class"
+			],
+			[
+				"Tim",
+				"Timer	haxe"
+			],
+			[
+				"_c",
+				"_currentIndex	var"
+			],
+			[
+				"current",
+				"_currentIndex	var"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"val",
+				"values	var"
+			],
+			[
+				"Num",
+				"NumberSelector	class"
+			],
+			[
+				"fl",
+				"FlxGroup	class"
+			],
+			[
+				"upda",
+				"updateButton	function"
+			],
+			[
+				"_bgO",
+				"_bgOn"
+			],
+			[
+				"sw",
+				"switchState"
+			],
+			[
+				"FlxRandom",
+				"FlxRandom	flixel.util"
+			],
+			[
+				"el",
+				"elapsed	var"
+			],
+			[
+				"FlxCo",
+				"FlxColor	flixel.util"
+			],
+			[
+				"ant",
+				"antialiasing	Bool"
+			],
+			[
+				"he",
+				"height	Float"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"hide",
+				"hideSystemUi"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "project.flow",
+			"settings":
+			{
+				"buffer_size": 457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Main.hx",
+			"settings":
+			{
+				"buffer_size": 1418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/MouseAim.hx",
+			"settings":
+			{
+				"buffer_size": 1153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/util/Screen.hx",
+			"settings":
+			{
+				"buffer_size": 182,
+				"line_ending": "Unix",
+				"name": "package util;"
+			}
+		},
+		{
+			"file": "/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
+			"settings":
+			{
+				"buffer_size": 2758,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/states/PlayState.hx",
+			"settings":
+			{
+				"buffer_size": 2527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/entities/Avatar.hx",
+			"settings":
+			{
+				"buffer_size": 2141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/TopdownMovement.hx",
+			"settings":
+			{
+				"buffer_size": 1763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/io/InputManager.hx",
+			"settings":
+			{
+				"buffer_size": 1644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/CameraFollow.hx",
+			"settings":
+			{
+				"buffer_size": 565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/KeepInBounds.hx",
+			"settings":
+			{
+				"buffer_size": 1716,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rich/haxelib/luxe/git/luxe/options/ComponentOptions.hx",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/sublime_flow/flow.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Haxe/Support/Hxml.sublime-build",
+					""
+				],
+				[
+					"Packages/sublime_flow/flow.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/sublime_flow/flow.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib.install_opener(urllib.build_opener(urllib.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib.install_opener(urllib.build_opener(urllib.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rich/Development/Luxe/fg",
+		"/Users/rich/Development/Luxe/fg/src",
+		"/Users/rich/Development/Luxe/fg/src/entities",
+		"/Users/rich/Development/Luxe/fg/src/io",
+		"/Users/rich/Development/Luxe/fg/src/util",
+		"/Users/rich/haxelib/luxe/git",
+		"/Users/rich/haxelib/luxe/git/flow",
+		"/Users/rich/haxelib/luxe/git/luxe",
+		"/Users/rich/haxelib/luxe/git/luxe/options",
+		"/Users/rich/haxelib/luxe/git/tests"
+	],
+	"file_history":
+	[
+		"/Users/rich/Development/Luxe/fg/assets/playeranim.json",
+		"/Users/rich/Development/Luxe/fg/src/SightLight.hx",
+		"/Users/rich/Development/Luxe/fg/src/io/InputManager.hx",
+		"/Users/rich/Development/Luxe/fg/src/geometry/TriangleFanGeometry.hx",
+		"/Users/rich/Development/Luxe/fg/PlayState.hx",
+		"/Users/rich/Development/Luxe/fg/assets/maskShader.glsl",
+		"/Users/rich/Development/Luxe/fg/fgf.sublime-project",
+		"/Users/rich/Development/Luxe/fg/src/components/IsometricCamera.hx",
+		"/Users/rich/haxelib/luxe/git/luxe/Parcel.hx",
+		"/Users/rich/Development/Luxe/fg/src/PlyImporter.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/FrameInput.hx",
+		"/Users/rich/haxelib/snow/git/snow/modules/sdl/Input.hx",
+		"/Users/rich/Library/Caches/Cleanup At Startup/Transmit/2BA9495A-CABC-4CE2-8116-6AFD62FEA3BB/db.php",
+		"/Users/rich/Development/Luxe/fg/Input.hx",
+		"/Users/rich/haxelib/snow/git/snow/core/native/input/Input.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/frameInput.hx",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/index.html",
+		"/Users/rich/Downloads/synergy-1.7.3-stable/ext/toolchain/commands1.py",
+		"/Users/rich/Development/dream2/clouddream/deepdream/deepdream.py",
+		"/Users/rich/Development/dream2/clouddream/deepdream/settings.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/css/style.css",
+		"/Users/rich/Desktop/subthemes.csv",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/plugins/advancedsearch/twigextensions/AdvancedSearchTwigExtension.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/plugins/advancedsearch/AdvancedSearchPlugin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/progress.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/policy/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/policy/json.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/policy/index.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/_layout.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/about.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/templates/policy/_entry.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/config/db.php",
+		"/Volumes/Rich S/readme",
+		"/Users/rich/Desktop/AdvancedSearchTwigExtension.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/craft/plugins/AdvancedSearchPlugin.php",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/controllers/SettingsController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/ModalPrompt.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/MenuState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/stat/Reg.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/Main.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/controllers/PlayerController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/RoundCompleteState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/IntroState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/PlayerScore.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/StatsScreen.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/SettingsState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/TextHolder.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/controllers/IAPController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/ZenButton.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/PlayState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/Project.xml",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/PlayerDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/android-source/GameActivityNew.java",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/android-source/GameActivity.java",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/export/android/bin/src/org/haxe/lime/GameActivity.java",
+		"/Users/rich/Development/scripts/getRepos.sh",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/stat/HSColors.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/QuestionDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/ZenState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/android-source/AndroidManifest.xml",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/Release.sublime-project",
+		"/Users/rich/haxelib/openfl-admob/1,3,4/dependencies/admobex/src/admobex/AdMobEx.java",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/export/android/bin/AndroidManifest.xml",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/SplashState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/Modal.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/Timer.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/PlayerDeleteButton.hx",
+		"/Users/rich/haxelib/flixel/git/flixel/text/FlxText.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/assets/images/logo-square-trans-01.svg",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/CircleCounter.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/Fill.hx",
+		"/Users/rich/haxelib/flixel/3,3,7/flixel/text/FlxText.hx",
+		"/Users/rich/haxelib/flixel/3,3,7/flixel/util/loaders/CachedGraphics.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/MenuState.hx",
+		"/Users/rich/ios/flixel-addons/git/flixel/addons/transition/TransitionData.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/pre haxelib",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/android-source/AndroidManifest.xml",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/android-source/com/android/camerarecorder/RecorderService.java",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/android-source/MainActivity.java",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/Project.xml",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/assets/shaders/scan.frag",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/assets/shaders/old.frag",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/helpers/Native.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/IntroState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/EndState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/EndGameState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/display/ResultsDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/display/ResultItem.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/EndRoundState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/PlayState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/helpers/Helpers.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/Reg.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/display/QuestionDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/display/PlayerDeleteButton.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/controllers/PlayerController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/ZenState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ui/ZenButton.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/SettingsState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/controllers/SettingsController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ui/NumberSelector.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ui/ToggleButton.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/display/PlayerDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/Main.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/android-source/com/android/camerarecorder/CameraRecorder.java",
+		"/Users/rich/Desktop/OxfordUP/src/helpers/Helpers.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/states/MenuState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/MenuState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayerController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/alpha.sublime-project",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/QuestionDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ZenButton.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/IntroState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/EndState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/SettingsState.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/NumberSelector.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayerDisplay.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/SettingsController.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ToggleButton.hx",
+		"/Users/rich/ios/flixel/git/flixel/math/FlxRandom.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayerDeleteButton.hx",
+		"/Users/rich/ios/flixel/3,3,3/flixel/system/FlxAssets.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/Helpers.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/export/android/bin/AndroidManifest.xml",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/export/android/bin/src/com/mutantlabs/zenhotseat/MainActivity.java",
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/Native.hx"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/rich/Development/Haxe/zenhotseat/Release/source",
+			"/Users/rich/Desktop/OxfordUP/src",
+			"/Users/rich/Development/Haxe/OUPAndroid/OxfordUP/src",
+			"/Users/rich/Development/Haxe/OUPAndroid/OxfordUP",
+			"/Users/rich/Development/Haxe/OUPAndroid/OxfordUP/src",
+			"\"/Users/rich/ios/flixel/3,3,3\"",
+			"/Users/rich/ios/flixel/3,3,3/flixel",
+			"/Users/rich/ios/flixel/3,3,3"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"target",
+			"keycodes",
+			"recalculate",
+			"var",
+			"!-",
+			",\n		{\n			\"path\": \"/Users/rich/haxelib/luxe/git\",\n			\"name\": \"luxe\"\n		}",
+			"{ \"loc:",
+			"tooltip",
+			"support",
+			"[];",
+			"Greener Plymouth",
+			"Local community",
+			"City Pride and Vision",
+			"Economy",
+			"Health and wellbeing",
+			"Education and Learning",
+			"Arts and Culture",
+			";",
+			"search",
+			"\"images",
+			"modal",
+			"complete",
+			"onPurchasesRestored",
+			"restor",
+			"play(",
+			"onPurchasesRestored",
+			"restorePurchases",
+			"onPurchasesRestored",
+			"onQueryInventoryComplete",
+			"firstBoot",
+			"playerGameTotal",
+			"okay",
+			"endRound",
+			"ending",
+			"park",
+			"Modal(0",
+			"pause",
+			"PRODUCTS_RESTORED",
+			"restore",
+			"public",
+			"dialougeOpen",
+			"ava",
+			"scale",
+			"onPurchaseSuccess",
+			"STATE_TRANSITION",
+			"\n",
+			"STATE_TRANSITION",
+			"UiChangeListener",
+			"Sound",
+			"questionDis",
+			"\n",
+			"];\n",
+			"git@github.com:",
+			"*",
+			"\",",
+			"ssh_url: \"",
+			"ssh_url:",
+			"deletePlayerButton",
+			"\n",
+			"pause",
+			"totalPasses",
+			"totalTime",
+			"testPurchase_NoIAP",
+			"AdMob",
+			"\n",
+			"pause",
+			"visibility",
+			"outline",
+			"hidesystemUi(",
+			"hidesystemui",
+			"ice",
+			"fruits",
+			"schoo",
+			"hobbies",
+			"games",
+			"animal",
+			"cartoon",
+			"bird",
+			"mPreviewSize",
+			"mSurfaceHolder",
+			"mSurfaceView",
+			"imageUniform",
+			"postProcesse",
+			"postProcesses",
+			"addPostProcess",
+			"imageUniform",
+			"reOrder",
+			")});\n",
+			"Haxe.timer",
+			"size",
+			"remove",
+			"reroll",
+			"arra",
+			"FlxGraphicAsset",
+			"hideSystemUiCallback",
+			"Float",
+			"words",
+			"playWordSound",
+			"playw",
+			"playWordSound",
+			"handleNewWord",
+			"FlxG.mouse",
+			"_targetWord.addFormat",
+			"play(",
+			"playWordSound",
+			"_invincibilityElapsed",
+			"get_isInvicible",
+			"    private function get_isInvicible():Bool{return (_invincibilityElapsed > 0);}\n",
+			"():",
+			"_isIn",
+			"addWord",
+			"addFormat",
+			"wall",
+			"FlxG.width",
+			"giveInvincibility",
+			"_invincibilityElapsed",
+			"scaleMode",
+			"_targetWord",
+			"updateFac",
+			"flipped",
+			"loadGraphicFromTexture",
+			"_beak",
+			"facing",
+			"sound",
+			"Snd",
+			"scale",
+			"FlxG.scaleMode",
+			"centerOrigin"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"!=",
+			"array();",
+			"greener-plymouth",
+			"local-community",
+			"city-pride",
+			"economy",
+			"health-wellbeing",
+			"education",
+			"arts-culture",
+			"",
+			"\",\n\"",
+			"\"\n\"",
+			"https://github.com/",
+			"git clone",
+			"git clone ",
+			"",
+			"* ",
+			"\",\n\"",
+			"FlxNapeSprite"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "project.flow",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_flow/flow-file.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Main.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/MouseAim.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/util/Screen.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package util;",
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2208,
+								2208
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/states/PlayState.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2224,
+								2224
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1086.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/entities/Avatar.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								443
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 218.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/components/TopdownMovement.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								410
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/io/InputManager.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/components/CameraFollow.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								151
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/components/KeepInBounds.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/rich/haxelib/luxe/git/luxe/options/ComponentOptions.hx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								422
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"haxe-build-id": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "fgf.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

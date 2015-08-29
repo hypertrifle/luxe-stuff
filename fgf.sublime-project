@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/rich/haxelib/luxe/git",
+			"name": "luxe"
+		},
+		{
+			"path": "/Users/rich/haxelib/snow/git",
+			"name": "snow"
+		}
+	]
+}

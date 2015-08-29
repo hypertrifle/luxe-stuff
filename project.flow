@@ -1,0 +1,36 @@
+{
+
+  luxe:{
+    window: {
+      width:800,
+      height:600,
+      title:'RICH FGT',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'rich FGT',
+    version : '0.0.1',
+    author : 'Rich Searle',
+
+    app : {
+      name : 'FGT',
+      package : 'com.richsearle.fgt'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
