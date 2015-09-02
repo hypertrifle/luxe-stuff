@@ -1,22 +1,20 @@
 package components;
 
 import luxe.Component;
-import luxe.Sprite;
 import luxe.Vector;
 
 import io.InputManager;
 
 
 class TopdownMovement extends Component {
-	var sprite : Sprite;
-	var maxMovementSpeed:Int = 200;
+	var maxMovementSpeed:Int = 50;
 	var accelleration:Int = 800;
 	var drag:Int = 600;
 
-	var velocity:Vector = new Vector(0,0);
+	public var velocity:Vector = new Vector(0,0);
+	
     override function init() {
         //called when initialising the component
-        sprite = cast entity;
     }
 
     override function update(dt:Float) {
@@ -50,8 +48,8 @@ class TopdownMovement extends Component {
 
 	    }
 
-	    this.sprite.pos.x += velocity.x*dt;
-	    this.sprite.pos.y += velocity.y*dt;
+	    entity.pos.x += velocity.x*dt;
+	    entity.pos.y += velocity.y*dt;
 
     }
 

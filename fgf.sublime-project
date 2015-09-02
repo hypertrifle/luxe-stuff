@@ -11,6 +11,10 @@
 		{
 			"path": "/Users/rich/haxelib/snow/git",
 			"name": "snow"
+		},
+		{
+			"path": "/Users/rich/haxelib/mint/git/",
+			"name": "mint"
 		}
 	]
 }

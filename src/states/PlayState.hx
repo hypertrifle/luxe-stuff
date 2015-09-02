@@ -36,7 +36,7 @@ import luxe.Rectangle;
 
 class PlayState extends State {
 
-	var player:Sprite;
+	var player:Avatar;
 	var playerAnim : SpriteAnimation;
     var playerTexture:Sprite;
 	var move_speed : Float = 0;
@@ -75,10 +75,9 @@ class PlayState extends State {
 
 	
 	override function init(){
-            var image = Luxe.resources.texture('assets/avatar.png');
+            
            player = new Avatar({
-            name: 'player',
-            texture: image
+            name: 'player'
         });
 
 

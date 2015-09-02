@@ -18,12 +18,13 @@
 
     app : {
       name : 'FGT',
-      package : 'com.richsearle.fgt'
+      package : 'com.richsearle.luxe'
     },
 
     build : {
       dependencies : {
         luxe : '*',
+        mint : '*',
       }
     },
 
