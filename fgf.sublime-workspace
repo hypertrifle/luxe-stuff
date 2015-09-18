@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"P",
+				"phoenix"
+			],
+			[
+				"pla",
+				"playerTexture"
+			],
+			[
+				"Ent",
+				"EntityOptions"
+			],
+			[
+				"S",
+				"StateOptions	StateOptions"
+			],
+			[
 				"Vec",
 				"Vector	luxe"
 			],
@@ -40,16 +56,8 @@
 				"set_texture	function"
 			],
 			[
-				"pla",
-				"playerVision	var"
-			],
-			[
 				"player",
 				"player	var"
-			],
-			[
-				"S",
-				"Sprite	Sprite"
 			],
 			[
 				"M",
@@ -94,10 +102,6 @@
 			[
 				"Fram",
 				"FrameInput	components"
-			],
-			[
-				"Ent",
-				"Entity	luxe"
 			],
 			[
 				"wid",
@@ -510,53 +514,16 @@
 			[
 				"l",
 				"length"
-			],
-			[
-				"hide",
-				"hideSystemUi"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "project.flow",
+			"file": "src/entities/SightLight.hx",
 			"settings":
 			{
-				"buffer_size": 457,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Main.hx",
-			"settings":
-			{
-				"buffer_size": 1418,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/MouseAim.hx",
-			"settings":
-			{
-				"buffer_size": 1153,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/util/Screen.hx",
-			"settings":
-			{
-				"buffer_size": 182,
-				"line_ending": "Unix",
-				"name": "package util;"
-			}
-		},
-		{
-			"file": "/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
-			"settings":
-			{
-				"buffer_size": 2758,
+				"buffer_size": 8761,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,7 +531,47 @@
 			"file": "src/states/PlayState.hx",
 			"settings":
 			{
-				"buffer_size": 2527,
+				"buffer_size": 2470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/MouseAim.hx",
+			"settings":
+			{
+				"buffer_size": 1805,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/MechAnimation.hx",
+			"settings":
+			{
+				"buffer_size": 2420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/SimpleGun.hx",
+			"settings":
+			{
+				"buffer_size": 2050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Main.hx",
+			"settings":
+			{
+				"buffer_size": 4457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rich/haxelib/luxe/git/luxe/Parcel.hx",
+			"settings":
+			{
+				"buffer_size": 19425,
 				"line_ending": "Unix"
 			}
 		},
@@ -572,47 +579,31 @@
 			"file": "src/entities/Avatar.hx",
 			"settings":
 			{
-				"buffer_size": 2141,
+				"buffer_size": 2226,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/TopdownMovement.hx",
+			"file": "src/Plugins/PlyImporter.hx",
 			"settings":
 			{
-				"buffer_size": 1763,
+				"buffer_size": 4355,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/io/InputManager.hx",
+			"file": "src/plugins/PlyParser.hx",
 			"settings":
 			{
-				"buffer_size": 1644,
+				"buffer_size": 5772,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/CameraFollow.hx",
+			"file": "project.flow",
 			"settings":
 			{
-				"buffer_size": 565,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/KeepInBounds.hx",
-			"settings":
-			{
-				"buffer_size": 1716,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/rich/haxelib/luxe/git/luxe/options/ComponentOptions.hx",
-			"settings":
-			{
-				"buffer_size": 422,
+				"buffer_size": 480,
 				"line_ending": "Unix"
 			}
 		}
@@ -640,12 +631,12 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 203.0,
-		"last_filter": "insta",
+		"height": 101.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"insta",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -653,19 +644,67 @@
 				"Package Control: Install Package"
 			],
 			[
+				"flow",
+				"Set Syntax: flow file"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"haxeli",
+				"Haxelib: Update library"
+			],
+			[
+				"haxel",
+				"Haxelib: List Installed"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
 				"git",
 				"Package Control: Add Repository"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
 				"Package Control: Install Package"
 			]
 		],
@@ -696,24 +735,38 @@
 	[
 		"/Users/rich/Development/Luxe/fg",
 		"/Users/rich/Development/Luxe/fg/src",
-		"/Users/rich/Development/Luxe/fg/src/entities",
-		"/Users/rich/Development/Luxe/fg/src/io",
-		"/Users/rich/Development/Luxe/fg/src/util",
 		"/Users/rich/haxelib/luxe/git",
-		"/Users/rich/haxelib/luxe/git/flow",
 		"/Users/rich/haxelib/luxe/git/luxe",
-		"/Users/rich/haxelib/luxe/git/luxe/options",
-		"/Users/rich/haxelib/luxe/git/tests"
+		"/Users/rich/haxelib/snow/git/snow",
+		"/Users/rich/haxelib/snow/git/snow/api",
+		"/Users/rich/haxelib/snow/git/snow/core",
+		"/Users/rich/haxelib/snow/git/snow/core/native"
 	],
 	"file_history":
 	[
+		"/Users/rich/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rich/Development/Luxe/fg/src/components/SimpleGun.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/MouseAim.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/MechAnimation.hx",
+		"/Users/rich/Development/Luxe/fg/src/entities/Avatar.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/CameraFollow.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/TopdownMovement.hx",
+		"/Users/rich/Development/Luxe/fg/src/components/KeepInBounds.hx",
+		"/Users/rich/Development/Luxe/fg/src/states/PlayState.hx",
+		"/Users/rich/Development/Luxe/fg/src/Main.hx",
+		"/Users/rich/Development/Luxe/fg/project.flow",
+		"/Users/rich/Development/Luxe/fg/src/states/MintState.hx",
+		"/Users/rich/Development/Luxe/fg/src/states/MenuState.hx",
+		"/Users/rich/Development/Luxe/fg/fgf.sublime-project",
+		"/Users/rich/Development/Luxe/fg/src/io/InputManager.hx",
+		"/Users/rich/Development/Luxe/fg/src/util/Screen.hx",
+		"/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
+		"/Users/rich/haxelib/luxe/git/luxe/Emitter.hx",
 		"/Users/rich/Development/Luxe/fg/assets/playeranim.json",
 		"/Users/rich/Development/Luxe/fg/src/SightLight.hx",
-		"/Users/rich/Development/Luxe/fg/src/io/InputManager.hx",
 		"/Users/rich/Development/Luxe/fg/src/geometry/TriangleFanGeometry.hx",
 		"/Users/rich/Development/Luxe/fg/PlayState.hx",
 		"/Users/rich/Development/Luxe/fg/assets/maskShader.glsl",
-		"/Users/rich/Development/Luxe/fg/fgf.sublime-project",
 		"/Users/rich/Development/Luxe/fg/src/components/IsometricCamera.hx",
 		"/Users/rich/haxelib/luxe/git/luxe/Parcel.hx",
 		"/Users/rich/Development/Luxe/fg/src/PlyImporter.hx",
@@ -766,7 +819,6 @@
 		"/Users/rich/Development/scripts/getRepos.sh",
 		"/Users/rich/Development/Haxe/zenhotseat/Release/source/stat/HSColors.hx",
 		"/Users/rich/Development/Haxe/zenhotseat/Release/source/ui/QuestionDisplay.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
 		"/Users/rich/Development/Haxe/zenhotseat/Release/source/states/ZenState.hx",
 		"/Users/rich/Development/Haxe/zenhotseat/Release/android-source/AndroidManifest.xml",
 		"/Users/rich/Development/Haxe/zenhotseat/Release/Release.sublime-project",
@@ -819,22 +871,7 @@
 		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayerController.hx",
 		"/Users/rich/Development/Haxe/zenhotseat/alpha/alpha.sublime-project",
 		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayState.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/QuestionDisplay.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ZenButton.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/IntroState.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/EndState.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/SettingsState.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/NumberSelector.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayerDisplay.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/SettingsController.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/ToggleButton.hx",
-		"/Users/rich/ios/flixel/git/flixel/math/FlxRandom.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/PlayerDeleteButton.hx",
-		"/Users/rich/ios/flixel/3,3,3/flixel/system/FlxAssets.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/Helpers.hx",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/export/android/bin/AndroidManifest.xml",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/export/android/bin/src/com/mutantlabs/zenhotseat/MainActivity.java",
-		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/Native.hx"
+		"/Users/rich/Development/Haxe/zenhotseat/alpha/source/QuestionDisplay.hx"
 	],
 	"find":
 	{
@@ -860,6 +897,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"EventObject",
+			"rotation_z",
 			"target",
 			"keycodes",
 			"recalculate",
@@ -985,9 +1024,7 @@
 			"facing",
 			"sound",
 			"Snd",
-			"scale",
-			"FlxG.scaleMode",
-			"centerOrigin"
+			"scale"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1024,24 +1061,359 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "project.flow",
+					"file": "src/entities/SightLight.hx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 457,
+						"buffer_size": 8761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								331,
-								331
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/states/PlayState.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								81
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/MouseAim.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1399,
+								1399
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/MechAnimation.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1063,
+								1065
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 175.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/SimpleGun.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1830,
+								1830
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 564.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Main.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2361,
+								2361
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/rich/haxelib/luxe/git/luxe/Parcel.hx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 19425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1139,
+								1145
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1542.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/entities/Avatar.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1822,
+								1826
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1069.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/Plugins/PlyImporter.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/plugins/PlyParser.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "project.flow",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
 							]
 						],
 						"settings":
@@ -1058,385 +1430,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/Main.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								427,
-								427
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/MouseAim.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								353,
-								353
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/util/Screen.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"auto_name": "package util;",
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/rich/Development/Haxe/zenhotseat/Release/source/helpers/Helpers.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2208,
-								2208
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/states/PlayState.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2527,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2224,
-								2224
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1086.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/entities/Avatar.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								428,
-								443
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 218.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/components/TopdownMovement.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								380,
-								410
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/io/InputManager.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1644,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/components/CameraFollow.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								151
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "src/components/KeepInBounds.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1716,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								459,
-								459
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 38.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/Users/rich/haxelib/luxe/git/luxe/options/ComponentOptions.hx",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								72,
-								422
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"haxe-build-id": 0,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Haxe/Haxe.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1444,7 +1438,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1475,7 +1469,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 132.0
+		"height": 143.0
 	},
 	"output.find_results":
 	{

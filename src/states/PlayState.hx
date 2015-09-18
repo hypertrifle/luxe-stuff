@@ -11,6 +11,8 @@ import luxe.Sprite;
 import luxe.components.sprite.SpriteAnimation;
 import luxe.components.render.MeshComponent;
 
+import entities.SightLight;
+
 import components.MouseAim;
 import entities.Avatar;
 
@@ -49,8 +51,6 @@ class PlayState extends State {
 
 	public function new(){
 		 super({ name:'play' });
-
-
 
         // create a bunch of random obstacles
         for(n in 0...100) {

@@ -1,3 +1,5 @@
+package plugins;
+
 import haxe.ds.ObjectMap;
 import haxe.ds.StringMap;
 import haxe.io.Input;

@@ -5,11 +5,7 @@ import luxe.Vector;
 import phoenix.Texture.FilterType;
 import phoenix.Texture;
 
-import components.MouseAim;
-import components.TopdownMovement;
-import components.CameraFollow;
-import components.KeepInBounds;
-import components.MechAnimation;
+import components.*;
 
 import luxe.Vector;
 import luxe.Rectangle;
@@ -26,6 +22,10 @@ typedef AvatarOptions = {
   @:optional var anim : MechAnimation;
   @:optional var movement : TopdownMovement;
   @:optional var camera : CameraFollow;
+}
+
+typedef DeathEvent = {
+  @:optional var enemy:Int;
 }
 
 
@@ -85,17 +85,13 @@ class Avatar extends Entity {
 
     add(new KeepInBounds({name:"keepinbounds"}));
 
+    add(new SimpleGun( {name:"gun1"}));
 
-    //animation.
-    /*if(anim != null){
-      add(anim);
-     var anim_object = Luxe.resources.json('assets/playeranim.json');
-      anim.add_from_json_object( anim_object.asset.json );
-      //set the idle animation to active
-      anim.animation = 'aim';
-      anim.play();
-      
-    }*/
+    add(new Resources({name:"resources"}));
+
+    //event listeners
+
+    this.events.listen("player.die", die);
 
 
   }//init
@@ -108,5 +104,9 @@ class Avatar extends Entity {
 
 
   }//update
+
+  function die(death:DeathEvent){
+    trace( "Death");
+  }
 
 }//Avatar

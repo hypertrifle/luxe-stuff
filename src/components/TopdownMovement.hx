@@ -11,6 +11,16 @@ class TopdownMovement extends Component {
 	var accelleration:Int = 800;
 	var drag:Int = 600;
 
+
+	var boostMovementSpeed:Int = 200;
+	var boosting:Bool = false;
+
+	var boostTotal:Float = 1;
+	var boostCurrent:Float = 1;
+	var boostRefilRate:Float = 1;
+	var boostUsageRate:Float = 1;
+
+
 	public var velocity:Vector = new Vector(0,0);
 	
     override function init() {
@@ -19,12 +29,25 @@ class TopdownMovement extends Component {
 
     override function update(dt:Float) {
         //called every frame for you
+        boosting = false;
+        if(InputManager.playerboost.down()){
+        	if(boostCurrent > 0){
+        		boosting = true;
+        		boostCurrent -= dt * boostUsageRate;
+        	} 
+        } 
+
+        if(!boosting){
+        	boostCurrent = (boostCurrent + (boostRefilRate*dt) >= boostTotal)? boostTotal : boostCurrent + (boostRefilRate*dt);
+        }
+
+        var moveSpeed:Float = (boosting)? boostMovementSpeed : maxMovementSpeed;
 
 	    if(InputManager.playerdown.down()){
-	    	velocity.y = (velocity.y < maxMovementSpeed)? velocity.y + accelleration*dt: maxMovementSpeed;
+	    	velocity.y = (velocity.y < moveSpeed)? velocity.y + accelleration*dt: moveSpeed;
 
 	    } else if(InputManager.playerup.down()){
-	    	velocity.y = (velocity.y > -maxMovementSpeed)? velocity.y - accelleration*dt: -maxMovementSpeed;
+	    	velocity.y = (velocity.y > -moveSpeed)? velocity.y - accelleration*dt: -moveSpeed;
 	    } else {
 	    	//apply decelleration
 	    	if(velocity.y > 0) {
@@ -35,9 +58,9 @@ class TopdownMovement extends Component {
 	    }
 
 	    if(InputManager.playerleft.down()){
-	    	velocity.x = (velocity.x > -maxMovementSpeed)? velocity.x - accelleration*dt: -maxMovementSpeed;
+	    	velocity.x = (velocity.x > -moveSpeed)? velocity.x - accelleration*dt: -moveSpeed;
 	    } else if(InputManager.playerright.down()){
-	    	velocity.x = (velocity.x < maxMovementSpeed)? velocity.x + accelleration*dt: maxMovementSpeed;
+	    	velocity.x = (velocity.x < moveSpeed)? velocity.x + accelleration*dt: moveSpeed;
 	    } else {
 	    	//apply decelleration
 	    	if(velocity.x > 0) {

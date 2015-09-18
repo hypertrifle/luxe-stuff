@@ -1,4 +1,4 @@
-package;
+package plugins;
 import luxe.Mesh;
 import haxe.io.StringInput;
 import luxe.options.MeshOptions;

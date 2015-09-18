@@ -4,7 +4,7 @@
     window: {
       width:800,
       height:600,
-      title:'RICH FGT',
+      title:'RICH GAMES',
       fullscreen:false,
       resizable:true,
       borderless:false
@@ -24,7 +24,6 @@
     build : {
       dependencies : {
         luxe : '*',
-        mint : '*',
       }
     },
 

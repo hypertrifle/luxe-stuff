@@ -1,3 +1,5 @@
+package entities;
+
 import haxe.ds.StringMap;
 import luxe.Sprite;
 import phoenix.geometry.Geometry;
@@ -44,7 +46,7 @@ class SightLight extends Entity {
 		if(options.visible != null) { visible = options.visible; }
 		else { visible = true; }
 
-		if(options.group != null) { group = options.group; }
+		//if(options.group != null) { group = options.group; }
 
 		if(options.centre != null) { centre = options.centre; }
 		else { centre = new Vector(); }
@@ -106,7 +108,7 @@ class SightLight extends Entity {
 
 	function set_group(_g:Int) {
 		if(geometry != null) {
-			geometry.group = _g;
+			//geometry.group = _g;
 		}
 		return group = _g;
 	}
