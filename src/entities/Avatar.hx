@@ -60,7 +60,7 @@ class Avatar extends Entity {
 
    // options.size = ;
 
-
+   
 
     super( options );
   }
@@ -79,7 +79,7 @@ class Avatar extends Entity {
         add(camera);
     }
 
-    if(camera != null){
+    if(anim != null){
         add(anim);
     }
 
@@ -88,6 +88,11 @@ class Avatar extends Entity {
     add(new SimpleGun( {name:"gun1"}));
 
     add(new Resources({name:"resources"}));
+
+    add(new SimpleCollider({name:"collider"}));
+
+
+   
 
     //event listeners
 

@@ -14,11 +14,11 @@ import luxe.Input;
 
 
 //mint stuff 
-/*import mint.Control;
+import mint.Control;
 import mint.types.Types;
 import mint.render.luxe.LuxeMintRender;
 import mint.render.luxe.Convert;
-import mint.layout.margins.Margins;*/
+import mint.layout.margins.Margins;
 
 import phoenix.Batcher;
 import phoenix.Camera;
@@ -44,6 +44,17 @@ class Main extends luxe.Game {
 
     public static var states:States;
     public static var controllers:Entity;
+
+
+    override function config(config:luxe.AppConfig) {
+
+            //if you have errors about the window being created,
+            //lower this to 2, or 0. it can also be 8
+        config.render.antialiasing = 4;
+
+        return config;
+
+    } //config
 
 
 
@@ -98,7 +109,9 @@ class Main extends luxe.Game {
             textures : [
                 { id: 'assets/avatar.png' },
                 { id: 'assets/head-guns.png' },
-                { id: 'assets/feet.png' }
+                { id: 'assets/feet.png' },
+                { id: 'assets/testlayer1.png' },
+                { id: 'assets/testlayer2.png' }
             ],
             sounds : [
                 {id: 'assets/gun.wav', name: "gun.fire", is_stream:false}

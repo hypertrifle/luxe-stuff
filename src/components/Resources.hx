@@ -19,6 +19,7 @@ class Resources extends Component {
 	var energy:Float = 100;
 
 
+
 	override public function new(options:ComponentOptions) {
 		super(options);
 

@@ -15,6 +15,7 @@ class TopdownMovement extends Component {
 	var boostMovementSpeed:Int = 200;
 	var boosting:Bool = false;
 
+	
 	var boostTotal:Float = 1;
 	var boostCurrent:Float = 1;
 	var boostRefilRate:Float = 1;

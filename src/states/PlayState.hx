@@ -19,8 +19,7 @@ import entities.Avatar;
 import phoenix.geometry.Geometry;
 import phoenix.geometry.QuadGeometry;
 
-import geometry.TriangleFanGeometry;
-import options.TriangleFanGeometryOptions;
+import geometry.StencilWriteGeometry;
 
 import phoenix.Shader;
 import phoenix.Texture.FilterType;
@@ -28,6 +27,9 @@ import phoenix.Texture.FilterType;
 import luxe.Input.MouseEvent;
 
 import luxe.Rectangle;
+
+import luxe.collision.shapes.*;
+import luxe.collision.ShapeDrawerLuxe;
 
 
 
@@ -48,28 +50,22 @@ class PlayState extends State {
 
     var maskShader:Shader;
 
+    public static var drawer: ShapeDrawerLuxe;
+    public static var shapes: Array<Shape>;
+    public static var rays: Array<Ray>;
+
+    var layer1:Sprite;
+    var layer2:Sprite;
+
 
 	public function new(){
 		 super({ name:'play' });
 
-        // create a bunch of random obstacles
-        for(n in 0...100) {
-            var w:Float = Luxe.utils.random.float(8, 128);
-            var h:Float = Luxe.utils.random.float(8, 128);
+        drawer = new ShapeDrawerLuxe( );
+        shapes = [];
+        rays = [];
 
-            walls.push(new Sprite({
-                geometry: Luxe.draw.box({
-                    x: w / -2,
-                    y: h / -2,
-                    w: w,
-                    h: h
-                }),
-                color: new Color(0.25, 0.25, 0.25, 1),
-                pos: Luxe.utils.geometry.random_point_in_unit_circle().multiplyScalar(Luxe.screen.h *8).add(Luxe.screen.mid),
-                depth: 0,
-                rotation_z: Luxe.utils.random.float(0, 360)
-            }));
-        }
+
 
 	}
 
@@ -97,6 +93,8 @@ class PlayState extends State {
 
 
 
+
+
 	}//init
 
     override function onmousemove( event:MouseEvent ) {
@@ -108,10 +106,20 @@ class PlayState extends State {
         super.update(delta);
         collisionUpdate( delta );
 
+        /*for(n in 0...walls.length) {
+            walls[n].shader = maskShader;
+        }*/
+
+
 	}//update
 
     function collisionUpdate(delta:Float){
 
+    }
+
+    override function onrender() {
+        for(shape in shapes) drawer.drawShape(shape);
+        for(ray in rays) drawer.drawLine(ray.start, ray.end);
     }
   
 }//PlayState
