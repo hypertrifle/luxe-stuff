@@ -15,6 +15,10 @@
 		{
 			"path": "/Users/rich/haxelib/mint/git/",
 			"name": "mint"
+		},
+		{
+			"path": "/usr/local/lib/node_modules/slush-luxe/templates",
+			"name": "slush templates"
 		}
 	]
 }

@@ -23,10 +23,6 @@ import mint.layout.margins.Margins;
 import phoenix.Batcher;
 import phoenix.Camera;
 
-
-
-
-
 class Main extends luxe.Game {
 
 
@@ -36,9 +32,9 @@ class Main extends luxe.Game {
 
 
     public static var disp : Text;
-    //public static var canvas: mint.Canvas;
-    //public static var rendering: LuxeMintRender;
-    //public static var layout: Margins;
+    public static var canvas: mint.Canvas;
+    public static var rendering: LuxeMintRender;
+    public static var layout: Margins;
 
 
 
@@ -87,17 +83,17 @@ class Main extends luxe.Game {
         }
 
         //create a renderer with are cameras batcher.
-        //rendering = new LuxeMintRender({batcher:hud_batcher});
+        rendering = new LuxeMintRender({batcher:hud_batcher});
         
-        //layout = new Margins();
+        layout = new Margins();
 
-        /*canvas = new mint.Canvas({
+        canvas = new mint.Canvas({
             name:'canvas',
             rendering: rendering,
             
             options: { color:new Color(1,1,1,0.0) },
             x: 0, y:0, w: Luxe.screen.w, h: Luxe.screen.h
-        });*/
+        });
 
 
 
@@ -111,13 +107,15 @@ class Main extends luxe.Game {
                 { id: 'assets/head-guns.png' },
                 { id: 'assets/feet.png' },
                 { id: 'assets/testlayer1.png' },
-                { id: 'assets/testlayer2.png' }
+                { id: 'assets/testlayer2.png' },
+                { id: 'assets/mapSprites.png' }
             ],
             sounds : [
                 {id: 'assets/gun.wav', name: "gun.fire", is_stream:false}
             ],
             texts : [
                  { id: 'assets/test.ply' }
+                 { id: 'assets/level1.txt' }
             ],
             shaders : [
                 { id:'maskShader', frag_id:'assets/maskShader.glsl', vert_id:'default' }
@@ -151,18 +149,18 @@ class Main extends luxe.Game {
      
     }
 
-   /* public function clearUI() {
+   public function clearUI() {
          canvas.destroy_children();
     }
 
   
     override function update(dt:Float) {
-         //canvas.update(dt);
+         canvas.update(dt);
     } //update
 
     override function onrender() {
 
-       // canvas.render();
+        canvas.render();
 
     }
 
@@ -189,11 +187,11 @@ class Main extends luxe.Game {
 
     override function ontextinput(e:luxe.Input.TextEvent) {
         canvas.textinput( Convert.text_event(e) );
-    }*/
+    }
 
     override function onkeyup(e:luxe.Input.KeyEvent) {
 
-        //canvas.keyup( Convert.key_event(e) );
+        canvas.keyup( Convert.key_event(e) );
 
         if(e.keycode == Key.escape) {
             if(states.current_state.name == "menu"){
